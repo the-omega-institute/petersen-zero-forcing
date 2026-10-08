@@ -1,0 +1,37 @@
+{
+  "package_version": "2026-10-08-v2",
+  "authors": [
+    "Wenlin Zhang",
+    "Haobo Ma"
+  ],
+  "verification_requires": "Python >=3.11 standard library; cc (C99 compiler)",
+  "original_proof_generation": {
+    "python": "3.14.4",
+    "python_sat": "1.9.dev15",
+    "solver": "CaDiCaL 1.9.5 (cadical195)",
+    "pysat_sdist_sha256": "5a2a58022248ce2cf9395b560685185e4773c452a29eb0ae8662d67611336cd3",
+    "cadical195_nested_source_sha256": "fb1850e08c578229c8a3a020673fd65ae271c54f0ce660386a0de952bfd7b2b0",
+    "cadical195_source_tag": "rel-1.9.5"
+  },
+  "drat_trim": {
+    "revision": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+    "source_sha256": "d834b649f437e091597f5347f259b9f681087f89ca0844d0cee250a1a1a0c2ee",
+    "build": "cc -O2 checker/drat-trim.c -o drat-trim",
+    "invocation": "drat-trim CNF PROOF -i -t 600"
+  },
+  "local_verification": {
+    "python": "3.14.4",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O"
+  },
+  "original_sources": {
+    "verify_results.py": "b445b20064bf8824972ef6a4298d72036e54a7648aec2d8ededfb3180a328a99",
+    "fort_check.py": "da55af34d697db25829c47383682407f75428c66924ad60db924a0f614283b34",
+    "proof_boundary.py": "f985f1eaf436fb54fdfba14dd393e92555b8ce0237382da6200141e0dfcfd5c1",
+    "compute.py": "b43ca1eb9de6dba7a9fee4e303a74fbfde1da9896ab30ecfb43534e950aa51b0"
+  },
+  "fresh_build_dependencies_sha256": {
+    "six-1.17.0-py2.py3-none-any.whl": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+    "setuptools-80.9.0-py3-none-any.whl": "062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922",
+    "wheel-0.45.1-py3-none-any.whl": "708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248"
+  }
+}

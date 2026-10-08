@@ -1,0 +1,68 @@
+
+c turning on binary mode checking
+
+c parsing input formula with 3793 variables and 7773 clauses
+
+c WARNING: deleted clause on proof line 232957 does not occur: [0] -741 994 0
+
+c WARNING: deleted clause on proof line 232958 does not occur: [0] -824 994 0
+
+c WARNING: deleted clause on proof line 232959 does not occur: [0] -755 1008 0
+
+c WARNING: deleted clause on proof line 232960 does not occur: [0] -771 1024 0
+
+c WARNING: deleted clause on proof line 232961 does not occur: [0] -824 1077 0
+
+c WARNING: deleted clause on proof line 232962 does not occur: [0] -907 1077 0
+
+c WARNING: deleted clause on proof line 232963 does not occur: [0] -838 1091 0
+
+c WARNING: deleted clause on proof line 232964 does not occur: [0] -854 1107 0
+
+c WARNING: deleted clause on proof line 232965 does not occur: [0] -907 1160 0
+
+c WARNING: deleted clause on proof line 232966 does not occur: [0] -990 1160 0
+
+c WARNING: deleted clause on proof line 232967 does not occur: [0] -921 1174 0
+
+c WARNING: deleted clause on proof line 232968 does not occur: [0] -937 1190 0
+
+c WARNING: deleted clause on proof line 232969 does not occur: [0] -1073 1243 0
+
+c WARNING: deleted clause on proof line 232970 does not occur: [0] -990 1243 0
+
+c WARNING: deleted clause on proof line 232971 does not occur: [0] -1004 1257 0
+
+c WARNING: deleted clause on proof line 232972 does not occur: [0] -1020 1273 0
+
+c WARNING: deleted clause on proof line 232973 does not occur: [0] -1073 1326 0
+
+c WARNING: deleted clause on proof line 232974 does not occur: [0] -1156 1326 0
+
+c WARNING: deleted clause on proof line 232975 does not occur: [0] -1087 1340 0
+
+c WARNING: deleted clause on proof line 232976 does not occur: [0] -1103 1356 0
+
+c WARNING: deleted clause on proof line 232977 does not occur: [0] -1239 1409 0
+
+c WARNING: deleted clause on proof line 232978 does not occur: [0] -1156 1409 0
+
+c WARNING: deleted clause on proof line 232979 does not occur: [0] -1170 1423 0
+
+c WARNING: deleted clause on proof line 232980 does not occur: [0] -1186 1439 0
+
+c WARNING: wrong binary prefix, stop reading proof
+
+c finished parsing, read 6047127 bytes from proof file
+
+c detected empty clause; start verification via backward checking
+
+c 7230 of 7773 clauses in core                            
+
+c 64973 of 115689 lemmas in core using 4410171 resolution steps
+
+c 0 RAT lemmas in core; 36950 redundant literals in core lemmas
+
+s VERIFIED
+
+c verification time: 4.116 seconds

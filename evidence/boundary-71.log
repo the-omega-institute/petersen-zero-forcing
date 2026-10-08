@@ -1,0 +1,20 @@
+
+c turning on binary mode checking
+
+c parsing input formula with 5513 variables and 11293 clauses
+
+c WARNING: wrong binary prefix, stop reading proof
+
+c finished parsing, read 9917368 bytes from proof file
+
+c detected empty clause; start verification via backward checking
+
+c 10319 of 11293 clauses in core                            
+
+c 83359 of 172799 lemmas in core using 8422529 resolution steps
+
+c 0 RAT lemmas in core; 42572 redundant literals in core lemmas
+
+s VERIFIED
+
+c verification time: 26.498 seconds
